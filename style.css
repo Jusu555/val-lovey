@@ -7,7 +7,8 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(180deg, #c9a7ff, #f6e9ff);
+  /* Changed from purple to a soft pink gradient */
+  background: linear-gradient(180deg, #ffb7d5, #fff0f5); 
   font-family: 'Press Start 2P', cursive;
   display: flex;
   justify-content: center;
@@ -16,56 +17,57 @@ body {
 }
 
 .card {
-  background: #fff0ff;
+  background: #fff5f8; /* Very light pink card background */
   border-radius: 22px;
   padding: 28px 24px;
   width: 90%;
   max-width: 420px;
   text-align: center;
-  box-shadow: 0 0 40px rgba(180,120,255,0.6);
+  /* Updated shadow to a pink glow */
+  box-shadow: 0 0 40px rgba(255, 120, 180, 0.6); 
   position: relative;
 }
 
 h1 {
   font-size: 14px;
-  color: #8b4dff;
+  color: #ff4d8d; /* Vibrant pink for headers */
   margin-bottom: 20px;
 }
 
 .subtitle {
   font-size: 9px;
   margin-bottom: 30px;
-  color: #9a6bff;
+  color: #ff6bb5;
 }
 
 .reason {
-  background: #f2c6ff;
+  background: #ffc6e2; /* Light pink for reason boxes */
   margin: 12px 0;
   padding: 14px 10px;
   border-radius: 14px;
   font-size: 9px;
-  box-shadow: 0 4px 0 #b57bff;
+  box-shadow: 0 4px 0 #ff7bb5; /* Darker pink bottom shadow */
 }
 
 .btn {
   display: inline-block;
   margin-top: 25px;
   padding: 14px 18px;
-  background: #c084ff;
+  background: #ff84b4; /* Main button pink */
   color: white;
   text-decoration: none;
   border-radius: 14px;
   font-size: 9px;
-  box-shadow: 0 4px 0 #8a4bd9;
+  box-shadow: 0 4px 0 #d94b8a; /* Button shadow */
 }
 
 .btn:active {
   transform: translateY(2px);
-  box-shadow: 0 2px 0 #8a4bd9;
+  box-shadow: 0 2px 0 #d94b8a;
 }
 
 .final-text {
   font-size: 10px;
   line-height: 1.6;
-  color: #7a3cff;
+  color: #ff3c8a;
 }
