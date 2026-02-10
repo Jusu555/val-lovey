@@ -1,6 +1,6 @@
 function createHeart() {
   const heart = document.createElement('div');
-  heart.textContent = '💜';
+  heart.textContent = '💗';
   heart.style.position = 'absolute';
   heart.style.left = Math.random() * 100 + 'vw';
   heart.style.bottom = '-20px';
